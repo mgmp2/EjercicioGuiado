@@ -1,7 +1,10 @@
 body{
   font-family: 'Indie Flower', cursive;
+  color: gray;
 }
-
+.contenedor{
+  margin: 5% 10%;
+}
 .box{
   width: 220px;
   height: 270px;
@@ -18,17 +21,38 @@ body{
 h2 {
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 14px;
-  color: rgb(202, 147, 147);
 }
+h5 {
+  color: gray;
+}
+
 .box:hover {
   padding: 20px;
   margin:10px;
-  background-color: rgba(96, 125, 139, 0.38);
   -webkit-transform: scale(1.1); /* permit to move outside in the same place */
-  color: rgba(39, 176, 120, 0.71)!important;
   -webkit-transition: all .0.5s ease-in-out;
+  background-color: rgba(68, 166, 213, 0.38);
 }
-p {
-  color: #9C27B0;
+.uno:hover{
+  color: #7AA2F4;
+}
+.dos:hover {
+  color: rgb(207, 63, 108);
+}
+.tres:hover {
+  color: rgb(161, 180, 96);
+}
+.cuatro:hover {
+  color: rgba(217, 29, 57, 0.81)
+}
+.cinco:hover {
+  color: rgb(75, 126, 149);
+}
 
+.contenedor > span {
+  bottom: 0;
+  right: 15%;
+  font-size: 20px;
+  position: absolute;
+  color: rgb(58, 149, 69)
 }

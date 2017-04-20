@@ -17,7 +17,6 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -26,13 +25,11 @@
 
 .icon-camera:before {
   content: "\e90f";
-  color: rgba(202, 147, 147, 0.70);
   font-size: 80px;
 }
 .icon-video:before {
   content: "\e914";
   font-size: 80px;
-  color: rgba(76, 120, 132, 0.70);
 }
 .icon-clubs:before {
   content: "\e918";
@@ -41,16 +38,13 @@
 .icon-compass:before {
   content: "\e949";
   font-size: 80px;
-  color: #65CE44;
 }
 .icon-keyboard:before {
   content: "\e955";
   font-size: 80px;
-  color #9DA1A9;
 }
 .icon-heart:before {
   content: "\e9da";
   font-size: 80px;
-  color: rgba(255, 0, 0, 0.70);
 
 }
