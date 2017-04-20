@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9b286d');
+  src:  url('fonts/icomoon.eot?9b286d#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9b286d') format('truetype'),
+    url('fonts/icomoon.woff?9b286d') format('woff'),
+    url('fonts/icomoon.svg?9b286d#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-camera:before {
+  content: "\e90f";
+  color: rgba(202, 147, 147, 0.70);
+  font-size: 80px;
+}
+.icon-video:before {
+  content: "\e914";
+  font-size: 80px;
+  color: rgba(76, 120, 132, 0.70);
+}
+.icon-clubs:before {
+  content: "\e918";
+  font-size: 80px;
+}
+.icon-compass:before {
+  content: "\e949";
+  font-size: 80px;
+  color: #65CE44;
+}
+.icon-keyboard:before {
+  content: "\e955";
+  font-size: 80px;
+  color #9DA1A9;
+}
+.icon-heart:before {
+  content: "\e9da";
+  font-size: 80px;
+  color: rgba(255, 0, 0, 0.70);
+
+}

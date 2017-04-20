@@ -1,0 +1,33 @@
+body{
+  font-family: 'Indie Flower', cursive;
+}
+.box{
+  width: 220px;
+  height: 270px;
+  box-shadow: 8px 10px 14px -8px #CECECE;
+  float: left;
+  text-align: center;
+  background-color: #f4f1f1;
+  padding-top: 30px;
+  margin: 5px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+h2 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 14px;
+  color: rgb(202, 147, 147);
+}
+.box:hover {
+  padding: 20px;
+  color white;
+  background-color: #fff;
+  -webkit-transform: scale(1.1); /* permit to move outside in the same place */
+  color: #8c8f98;
+  -webkit-transition: all .0.5s ease-in-out;
+}
+p {
+  color: rgb(202, 147, 147);
+
+}
