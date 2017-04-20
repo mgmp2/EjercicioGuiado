@@ -21,13 +21,13 @@ h2 {
 }
 .box:hover {
   padding: 20px;
-  color white;
-  background-color: #fff;
+  margin:10px;
+  background-color: rgba(96, 125, 139, 0.38);
   -webkit-transform: scale(1.1); /* permit to move outside in the same place */
-  color: #8c8f98;
+  color: rgba(39, 176, 120, 0.71)!important;
   -webkit-transition: all .0.5s ease-in-out;
 }
 p {
-  color: rgb(202, 147, 147);
+  color: #9C27B0;
 
 }
